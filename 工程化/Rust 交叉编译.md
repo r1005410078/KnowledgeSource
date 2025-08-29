@@ -79,3 +79,54 @@ linker = "aarch64-linux-gnu-gcc"
 
 ---
 
+> 🙋 除了 官方的，zig cc, zigbuild， corss 交叉编译方式，还有哪些
+> 🤖  
+
+1. 使用 LLVM/Clang 交叉编译
+- Rust 编译器基于 LLVM，可以直接调用 **Clang** 作为 C 编译器。
+- 比如
+```bash
+CC=clang \
+
+AR=llvm-ar \
+
+CFLAGS="--target=aarch64-linux-gnu" \
+
+cargo build --target aarch64-unknown-linux-gnu
+```
+
+- 优点：
+    - 不需要完整的 GNU 工具链。
+- 缺点：
+    - 对一些 C 依赖的项目，仍需 sysroot 或预编译库。
+
+
+2. 使用 Nix 提供交叉编译环境
+	- - - **Nix** 可以提供完整的交叉编译工具链（包括 libc、gcc）。
+
+---
+
+> 🙋 在ubuntu 中交叉编译
+> 🤖  
+
+```bash
+root@vagrant-ubuntu:/www/seal_orm_example# cargo build --target x86_64-unknown-linux-gnu
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.18
+   Compiling quote v1.0.40
+   Compiling syn v2.0.106
+   Compiling libc v0.2.175
+   Compiling autocfg v1.5.0
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `x86_64-unknown-linux-gnu` target may not be installed
+  = help: consider downloading the target with `rustup target add x86_64-unknown-linux-gnu`
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `libc` (lib) due to 1 previous error
+```
+
+解决方案
+```bash
+rustup target add x86_64-unknown-linux-gnu
+```
