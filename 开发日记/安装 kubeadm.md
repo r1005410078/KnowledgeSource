@@ -80,13 +80,23 @@ sudo docker run hello-world
 #- **默认 containerd 用 cgroupfs**，而 kubeadm 推荐 **systemd**。
 #- 不一致时，kubeadm init 或 kubelet 会报错：
 
+containerd config default > /etc/containerd/config.toml
+
 vi /etc/containerd/config.toml
 [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
     SystemdCgroup = true
     
 # 重启服务
 systemctl restart containerd
-    
+
+
+mkdir -p /etc/systemd/system/docker.service.d
+
+cat <<EOF | sudo tee /etc/systemd/system/docker.service.d/proxy.conf
+[Service]
+Environment="HTTP_PROXY=http://192.168.2.10:7890"
+Environment="HTTPS_PROXY=http://192.168.2.10:7890"
+EOF
 ```
 
 4. [安装 kubelet kubeadm kubectl](https://kubernetes.io/zh-cn/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl)
@@ -119,7 +129,6 @@ echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.
 sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
-
 
 ```
 
@@ -175,6 +184,23 @@ root@storage-1:~# ls -l /opt/cni/bin/loopback
 ls: cannot access '/opt/cni/bin/loopback': No such file or directory
 ```
 
+缺少执行文件， 下载 cni 插件放进去就好了
+
+
+```bash
+[preflight] Running pre-flight checks
+W0901 14:39:44.478120    9308 checks.go:1049] [preflight] WARNING: Couldn't create the interface used for talking to the container runtime: failed to create new CRI runtime service: validate service connection: validate CRI v1 runtime API for endpoint "unix:///var/run/containerd/containerd.sock": rpc error: code = Unimplemented desc = unknown service runtime.v1.RuntimeService
+[preflight] Some fatal errors occurred:
+        [ERROR FileAvailable--etc-kubernetes-kubelet.conf]: /etc/kubernetes/kubelet.conf already exists
+        [ERROR FileAvailable--etc-kubernetes-bootstrap-kubelet.conf]: /etc/kubernetes/bootstrap-kubelet.conf already exists
+        [ERROR FileAvailable--etc-kubernetes-pki-ca.crt]: /etc/kubernetes/pki/ca.crt already exists
+[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`
+error: error execution phase preflight: preflight checks failed
+To see the stack trace of this error execute with --v=5 or higher
+```
+
+join 失败后有遗留问题，reset 一下就好了
+
 🙋 排查问题命令集合
 
 ```bash
@@ -198,6 +224,9 @@ kubectl logs <pod-name> -n <namespace>
 
 # 实时查看 kubelet 日志
 journalctl -u kubelet -f
+
+# 3. **检查 containerd CRI**
+crictl info
 
 # 查看 CNI 配置文件
 cat /etc/cni/net.d/10-flannel.conflist
@@ -239,4 +268,51 @@ kubeadm token create --print-join-command
 ```
 
 
+### 国内镜像问题 (子节点)
 
+```bash
+# Flannel 镜像
+
+docker save ghcr.io/flannel-io/flannel:v0.27.2 -o flannel_v0.27.2.tar
+
+docker save ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1 -o flannel-cni-v1.7.1.tar
+
+  
+
+# Pause 镜像
+
+docker save registry.aliyuncs.com/google_containers/pause:3.8 -o pause_3.8.tar
+```
+
+##  **导入 containerd 的 k8s.io 命名空间**
+
+```bash
+# Pause
+
+ctr -n k8s.io images import pause_3.8.tar
+
+ctr -n k8s.io images tag registry.aliyuncs.com/google_containers/pause:3.8 registry.k8s.io/pause:3.8
+
+  
+
+# Flannel 主镜像
+
+ctr -n k8s.io images import flannel_v0.27.2.tar
+
+  
+
+# Flannel CNI 插件镜像
+
+ctr -n k8s.io images import flannel-cni-v1.7.1.tar
+```
+
+
+### **拉国内加速镜像**
+
+```bash
+docker pull registry.aliyuncs.com/google_containers/pause:3.8
+```
+
+
+### Q/A
+	1. ctr images 跟 docker images 区别
