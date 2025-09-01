@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发日记/docker 本质是一个进程.md",
+                "file": "开发日记/Rust 交叉编译.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker 本质是一个进程"
+              "title": "Rust 交叉编译"
             }
           }
         ]
@@ -204,8 +204,8 @@
   },
   "active": "75038617d0d24375",
   "lastOpenFiles": [
+    "开发日记/docker 本质是进程.md",
     "开发日记/安装 kubeadm.md",
-    "开发日记/docker 本质是一个进程.md",
     "开发日记/Rust 交叉编译.md",
     "开发日记",
     "技术文章/Rust 交叉编译.md",
