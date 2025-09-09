@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发日记/MacOS 中出现.md",
-                "mode": "source",
+                "file": "开发日记/🚢 Docker Swarm.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MacOS 中出现"
+              "title": "🚢 Docker Swarm"
             }
           }
         ],
@@ -217,15 +217,19 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "18809d708ae9e76e",
+  "active": "f13618d368da6341",
   "lastOpenFiles": [
-    "Untitled",
-    "开发日记/Rust 交叉编译.md",
-    "开发日记/安装 kubeadm.md",
-    "assets/Pasted image 20250907102833.png",
-    "开发日记/MacOS 中出现.md",
-    "assets",
     "开发日记/docker 本质是进程.md",
+    "开发日记/安装 kubeadm.md",
+    "开发日记/GitHub Actions.md",
+    "开发日记/🚢 Docker Swarm.md",
+    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
+    "开发日记/Rust 交叉编译.md",
+    "开发日记/MacOS 中出现.md",
+    "assets/Pasted image 20250907102833.png",
+    "Untitled.md",
+    "Untitled",
+    "assets",
     "开发日记",
     "技术文章/Rust 交叉编译.md",
     "技术文章",
