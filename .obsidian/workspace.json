@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发日记/🚢 Docker Swarm.md",
-                "mode": "preview",
+                "file": "开发日记/Flutter 是如何在安卓系统中运行起来的.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🚢 Docker Swarm"
+              "title": "Flutter 是如何在安卓系统中运行起来的"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 263.5
   },
   "right": {
     "id": "743d3099b50f0e40",
@@ -217,15 +217,18 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "f13618d368da6341",
+  "active": "18809d708ae9e76e",
   "lastOpenFiles": [
-    "开发日记/docker 本质是进程.md",
-    "开发日记/安装 kubeadm.md",
-    "开发日记/GitHub Actions.md",
+    "开发日记/Waydroid.md",
+    "开发日记/Flutter 是如何在安卓系统中运行起来的.md",
+    "开发日记/Android 是怎么运行起来的.md",
     "开发日记/🚢 Docker Swarm.md",
-    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
+    "开发日记/安装 kubeadm.md",
+    "开发日记/docker 本质是进程.md",
+    "开发日记/GitHub Actions.md",
     "开发日记/Rust 交叉编译.md",
     "开发日记/MacOS 中出现.md",
+    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
     "assets/Pasted image 20250907102833.png",
     "Untitled.md",
     "Untitled",
@@ -251,7 +254,6 @@
     "Templates/复盘模板.md",
     "Templates/读书笔记模板.md",
     "Templates",
-    "2025-08-25.md",
     "未命名.base",
     "未命名 1.base"
   ]
