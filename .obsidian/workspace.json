@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发日记/Flutter 是如何在安卓系统中运行起来的.md",
+                "file": "开发日记/android/Android SDK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flutter 是如何在安卓系统中运行起来的"
+              "title": "Android SDK"
             }
           }
         ],
@@ -217,11 +217,14 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "18809d708ae9e76e",
+  "active": "f13618d368da6341",
   "lastOpenFiles": [
-    "开发日记/Waydroid.md",
-    "开发日记/Flutter 是如何在安卓系统中运行起来的.md",
-    "开发日记/Android 是怎么运行起来的.md",
+    "开发日记/android/关键字.md",
+    "开发日记/android/Android SDK.md",
+    "开发日记/android/Waydroid.md",
+    "开发日记/android/Flutter 是如何在安卓系统中运行起来的.md",
+    "开发日记/android/Android 是怎么运行起来的.md",
+    "开发日记/android",
     "开发日记/🚢 Docker Swarm.md",
     "开发日记/安装 kubeadm.md",
     "开发日记/docker 本质是进程.md",
@@ -251,8 +254,6 @@
     "Rust异步实验.md",
     "未命名.canvas",
     "Templates/产品随想模板.md",
-    "Templates/复盘模板.md",
-    "Templates/读书笔记模板.md",
     "Templates",
     "未命名.base",
     "未命名 1.base"
