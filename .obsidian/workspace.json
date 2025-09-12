@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发日记/Dockerfile And Compose And Kubernetes.md",
+                "file": "开发日记/虚拟化操作系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dockerfile And Compose And Kubernetes"
+              "title": "虚拟化操作系统"
             }
           }
         ]
@@ -204,16 +204,18 @@
   },
   "active": "5225bb9550bdbeed",
   "lastOpenFiles": [
+    "欢迎.md",
+    "开发日记/虚拟化操作系统.md",
+    "开发日记/Rust 交叉编译.md",
     "开发日记/Docker 容器资源限制.md",
-    "开发日记/Docker 环境代理.md",
-    "开发日记/docker 本质是进程.md",
-    "开发日记/安装 kubeadm.md",
-    "开发日记/🚢 Docker Swarm.md",
     "开发日记/Dockerfile And Compose And Kubernetes.md",
     "开发日记/GitHub Actions.md",
     "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
     "开发日记/MacOS 中出现.md",
-    "开发日记/Rust 交叉编译.md",
+    "开发日记/Docker 环境代理.md",
+    "开发日记/docker 本质是进程.md",
+    "开发日记/安装 kubeadm.md",
+    "开发日记/🚢 Docker Swarm.md",
     "assets/Pasted image 20250907102833.png",
     "工程化/pkg-config.md",
     "工程化/在ubuntu中编译c和c++.md",
@@ -229,7 +231,6 @@
     "工程化/交叉编译c++.md",
     "README.md",
     "工程化",
-    "欢迎.md",
     "记忆卡片",
     "Rust异步实验.md",
     "Templates/技术实验模板.md",
