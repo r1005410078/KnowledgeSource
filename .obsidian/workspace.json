@@ -201,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +219,13 @@
   },
   "active": "f13618d368da6341",
   "lastOpenFiles": [
-    "开发日记/android/关键字.md",
+    "conflict-files-obsidian-git.md",
     "开发日记/android/Android SDK.md",
+    "开发日记/虚拟化操作系统.md",
+    "开发日记/Dockerfile And Compose And Kubernetes.md",
+    "开发日记/Docker 环境代理.md",
+    "开发日记/Docker 容器资源限制.md",
+    "开发日记/android/关键字.md",
     "开发日记/android/Waydroid.md",
     "开发日记/android/Flutter 是如何在安卓系统中运行起来的.md",
     "开发日记/android/Android 是怎么运行起来的.md",
@@ -246,14 +251,9 @@
     "Templates/技术实验模板.md",
     "Templates/对话学习.md",
     "Templates/技术笔记.md",
-    "工程化/在ubuntu中编译c和c++.md",
-    "README.md",
     "工程化",
-    "欢迎.md",
     "记忆卡片",
-    "Rust异步实验.md",
     "未命名.canvas",
-    "Templates/产品随想模板.md",
     "Templates",
     "未命名.base",
     "未命名 1.base"
