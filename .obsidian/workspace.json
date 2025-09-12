@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发日记/android/Android SDK.md",
-                "mode": "source",
+                "file": "开发日记/🚢 Docker Swarm.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android SDK"
+              "title": "🚢 Docker Swarm"
             }
           }
         ],
@@ -217,11 +217,12 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "f13618d368da6341",
+  "active": "c0feef85a89b4856",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "开发日记/android/Android SDK.md",
+    "开发日记/安装 kubeadm.md",
     "开发日记/虚拟化操作系统.md",
+    "开发日记/android/Android SDK.md",
+    "conflict-files-obsidian-git.md",
     "开发日记/Dockerfile And Compose And Kubernetes.md",
     "开发日记/Docker 环境代理.md",
     "开发日记/Docker 容器资源限制.md",
@@ -231,7 +232,6 @@
     "开发日记/android/Android 是怎么运行起来的.md",
     "开发日记/android",
     "开发日记/🚢 Docker Swarm.md",
-    "开发日记/安装 kubeadm.md",
     "开发日记/docker 本质是进程.md",
     "开发日记/GitHub Actions.md",
     "开发日记/Rust 交叉编译.md",
