@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软卡/问题.md",
+                "file": "日拱一卒/2025-09-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "问题"
+              "title": "2025-09-24"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "743d3099b50f0e40",
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软卡/问题.md",
+                "file": "日拱一卒/2025-09-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 问题"
+              "title": "Outline of 2025-09-24"
             }
           },
           {
@@ -203,31 +202,34 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "5dfad6b0675ba270",
+  "active": "c0feef85a89b4856",
   "lastOpenFiles": [
-    "软卡/软件开发模型.md",
-    "软卡/构件开发方法.md",
-    "软卡/问题.md",
-    "软卡/assets/Pasted image 20250921101914.png",
-    "软卡/assets",
-    "软卡/系统分析-面向对象分析.md",
-    "软卡/系统分析-结构化分析.md",
-    "软卡/系统设计-面向对象设计.md",
-    "软卡/assets/Pasted image 20250922073800.png",
-    "软卡/assets/Pasted image 20250922073752.png",
-    "软卡/assets/Pasted image 20250922073628.png",
-    "软卡/assets/Pasted image 20250922073614.png",
-    "软卡/assets/Pasted image 20250922073445.png",
-    "软卡/assets/Pasted image 20250922073432.png",
-    "软卡/assets/Pasted image 20250922073340.png",
-    "软卡/assets/Pasted image 20250922073328.png",
-    "软卡/assets/Pasted image 20250922073303.png",
-    "软卡/系统设计-结构化设计.md",
-    "软卡/系统设计-概述.md",
-    "软卡/原型开发方法.md",
+    "软考/问题.md",
+    "日拱一卒/2025-09-24.md",
+    "软考/软件开发模型.md",
+    "日拱一卒",
+    "软卡/Untitled",
+    "软考/构件开发方法.md",
+    "软考/assets/Pasted image 20250921101914.png",
+    "软考/assets",
+    "软考/系统分析-面向对象分析.md",
+    "软考/系统分析-结构化分析.md",
+    "软考/系统设计-面向对象设计.md",
+    "软考/assets/Pasted image 20250922073800.png",
+    "软考/assets/Pasted image 20250922073752.png",
+    "软考/assets/Pasted image 20250922073628.png",
+    "软考/assets/Pasted image 20250922073614.png",
+    "软考/assets/Pasted image 20250922073445.png",
+    "软考/assets/Pasted image 20250922073432.png",
+    "软考/assets/Pasted image 20250922073340.png",
+    "软考/assets/Pasted image 20250922073328.png",
+    "软考/assets/Pasted image 20250922073303.png",
+    "软考/系统设计-结构化设计.md",
+    "软考/系统设计-概述.md",
+    "软考/原型开发方法.md",
     "记忆卡片/示例.md",
     "开发日记/android/WebView 套壳应用.md",
-    "软卡",
+    "软考",
     "开发日记/MacOS 中出现.md",
     "开发日记/android/Android 是怎么运行起来的.md",
     "开发日记/android/关键字.md",
@@ -248,8 +250,6 @@
     "技术文章",
     "工程化",
     "记忆卡片",
-    "未命名.canvas",
-    "Templates",
-    "未命名.base"
+    "未命名.canvas"
   ]
 }
