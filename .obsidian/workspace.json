@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日拱一卒/2025-09-24.md",
+                "file": "日拱一卒/2025-09-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-24"
+              "title": "2025-09-25"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日拱一卒/2025-09-24.md",
+                "file": "日拱一卒/2025-09-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-24"
+              "title": "Outline of 2025-09-25"
             }
           },
           {
@@ -202,10 +202,11 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "c0feef85a89b4856",
+  "active": "5dfad6b0675ba270",
   "lastOpenFiles": [
-    "软考/问题.md",
     "日拱一卒/2025-09-24.md",
+    "日拱一卒/2025-09-25.md",
+    "软考/问题.md",
     "软考/软件开发模型.md",
     "日拱一卒",
     "软卡/Untitled",
@@ -243,7 +244,6 @@
     "开发日记/GitHub Actions.md",
     "开发日记/Dockerfile And Compose And Kubernetes.md",
     "开发日记/Docker 环境代理.md",
-    "开发日记/android/Android SDK.md",
     "开发日记/android",
     "assets",
     "开发日记",
