@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1602310929cd488f",
+        "id": "b17c467f1f47998b",
         "type": "tabs",
         "children": [
           {
-            "id": "5dfad6b0675ba270",
+            "id": "5742c702dda8c8bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -71,14 +71,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 227.5
   },
   "right": {
     "id": "743d3099b50f0e40",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日拱一卒/2025-09-25.md",
+                "file": "工程化/在ubuntu中编译c和c++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-25"
+              "title": "Outline of 在ubuntu中编译c和c++"
             }
           },
           {
@@ -168,7 +168,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "title": "笔记复习序列"
             }
           },
           {
@@ -186,36 +186,34 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "5dfad6b0675ba270",
+  "active": "5742c702dda8c8bd",
   "lastOpenFiles": [
     "日拱一卒/2025-09-24.md",
     "日拱一卒/2025-09-25.md",
-    "软考/问题.md",
     "软考/软件开发模型.md",
-    "日拱一卒",
-    "软卡/Untitled",
-    "软考/构件开发方法.md",
-    "软考/assets/Pasted image 20250921101914.png",
-    "软考/assets",
+    "软考/系统设计-面向对象设计.md",
+    "软考/系统设计-结构化设计.md",
+    "软考/系统设计-概述.md",
     "软考/系统分析-面向对象分析.md",
     "软考/系统分析-结构化分析.md",
-    "软考/系统设计-面向对象设计.md",
+    "软考/构件开发方法.md",
+    "软考/原型开发方法.md",
     "软考/assets/Pasted image 20250922073800.png",
     "软考/assets/Pasted image 20250922073752.png",
     "软考/assets/Pasted image 20250922073628.png",
@@ -225,31 +223,32 @@
     "软考/assets/Pasted image 20250922073340.png",
     "软考/assets/Pasted image 20250922073328.png",
     "软考/assets/Pasted image 20250922073303.png",
-    "软考/系统设计-结构化设计.md",
-    "软考/系统设计-概述.md",
-    "软考/原型开发方法.md",
-    "记忆卡片/示例.md",
-    "开发日记/android/WebView 套壳应用.md",
+    "软考/assets/Pasted image 20250922073158.png",
+    "软考/assets",
     "软考",
-    "开发日记/MacOS 中出现.md",
-    "开发日记/android/Android 是怎么运行起来的.md",
-    "开发日记/android/关键字.md",
-    "开发日记/🚢 Docker Swarm.md",
-    "开发日记/安装 kubeadm.md",
+    "日拱一卒",
+    "软卡/软件开发模型.md",
+    "软卡/系统设计-面向对象设计.md",
+    "软卡/系统设计-结构化设计.md",
+    "软卡/系统设计-概述.md",
+    "软卡/系统分析-面向对象分析.md",
+    "软卡/系统分析-结构化分析.md",
+    "软卡/构件开发方法.md",
+    "软卡/原型开发方法.md",
+    "软卡",
+    "每日一问/2025-09-23.md",
     "开发日记/虚拟化操作系统.md",
-    "开发日记/docker 本质是进程.md",
-    "开发日记/Docker 容器资源限制.md",
-    "开发日记/Rust 交叉编译.md",
-    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
-    "开发日记/GitHub Actions.md",
-    "开发日记/Dockerfile And Compose And Kubernetes.md",
-    "开发日记/Docker 环境代理.md",
+    "每日一问 1",
+    "每日一问",
+    "开发日记/android/关键字.md",
+    "开发日记/android/WebView 套壳应用.md",
+    "开发日记/android/Waydroid.md",
+    "开发日记/android/Flutter 是如何在安卓系统中运行起来的.md",
+    "开发日记/android/Android 是怎么运行起来的.md",
     "开发日记/android",
     "assets",
     "开发日记",
     "技术文章",
-    "工程化",
-    "记忆卡片",
     "未命名.canvas"
   ]
 }
