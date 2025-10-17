@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b17c467f1f47998b",
+        "id": "e054dd5a066c6ff9",
         "type": "tabs",
         "children": [
           {
-            "id": "5742c702dda8c8bd",
+            "id": "73753083d66c37e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日拱一卒/2025-09-25.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-09-25"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "这是什么文件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "这是什么文件 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "这是什么文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "这是什么文件 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程化/在ubuntu中编译c和c++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 在ubuntu中编译c和c++"
+              "title": "大纲"
             }
           },
           {
@@ -178,7 +171,17 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "title": "笔记复习序列"
+            }
+          },
+          {
+            "id": "04a82b79fe95279c",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -186,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 725.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,21 +202,48 @@
       "bases:创建新数据库": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5742c702dda8c8bd",
+  "active": "18809d708ae9e76e",
   "lastOpenFiles": [
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-conversations/我最近都记录了啥@20251017_084819.md",
+    "pdf/01-LangChain使用概述.pdf",
+    "pdf/03-LangChain使用之Chains.pdf",
+    "pdf/06-LangChain使用之Agents.pdf",
+    "pdf/02-LangChain使用之Model IO.pdf",
+    "欢迎.md",
+    "README.md",
+    "未命名.canvas",
+    "未命名.base",
+    "pdf/07-LangChain使用之Retrieval.pdf",
+    "pdf/05-LangChain使用之Tools.pdf",
+    "pdf/04-LangChain使用之Memory.pdf",
     "日拱一卒/2025-09-24.md",
-    "日拱一卒/2025-09-25.md",
-    "软考/软件开发模型.md",
-    "软考/系统设计-面向对象设计.md",
-    "软考/系统设计-结构化设计.md",
-    "软考/系统设计-概述.md",
-    "软考/系统分析-面向对象分析.md",
-    "软考/系统分析-结构化分析.md",
+    "pdf",
+    "日拱一卒/2025-10-17.md",
     "软考/构件开发方法.md",
-    "软考/原型开发方法.md",
+    "开发日记/安装 kubeadm.md",
+    "开发日记/虚拟化操作系统.md",
+    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
+    "开发日记/MacOS 中出现.md",
+    "记忆卡片/示例.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "Templates/复盘模板.md",
     "软考/assets/Pasted image 20250922073800.png",
     "软考/assets/Pasted image 20250922073752.png",
     "软考/assets/Pasted image 20250922073628.png",
@@ -223,32 +253,6 @@
     "软考/assets/Pasted image 20250922073340.png",
     "软考/assets/Pasted image 20250922073328.png",
     "软考/assets/Pasted image 20250922073303.png",
-    "软考/assets/Pasted image 20250922073158.png",
-    "软考/assets",
-    "软考",
-    "日拱一卒",
-    "软卡/软件开发模型.md",
-    "软卡/系统设计-面向对象设计.md",
-    "软卡/系统设计-结构化设计.md",
-    "软卡/系统设计-概述.md",
-    "软卡/系统分析-面向对象分析.md",
-    "软卡/系统分析-结构化分析.md",
-    "软卡/构件开发方法.md",
-    "软卡/原型开发方法.md",
-    "软卡",
-    "每日一问/2025-09-23.md",
-    "开发日记/虚拟化操作系统.md",
-    "每日一问 1",
-    "每日一问",
-    "开发日记/android/关键字.md",
-    "开发日记/android/WebView 套壳应用.md",
-    "开发日记/android/Waydroid.md",
-    "开发日记/android/Flutter 是如何在安卓系统中运行起来的.md",
-    "开发日记/android/Android 是怎么运行起来的.md",
-    "开发日记/android",
-    "assets",
-    "开发日记",
-    "技术文章",
-    "未命名.canvas"
+    "软考/assets/Pasted image 20250922073158.png"
   ]
 }
