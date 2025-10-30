@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e054dd5a066c6ff9",
+        "id": "1602310929cd488f",
         "type": "tabs",
         "children": [
           {
-            "id": "73753083d66c37e9",
+            "id": "5dfad6b0675ba270",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -57,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -67,14 +71,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 200
   },
   "right": {
     "id": "743d3099b50f0e40",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "这是什么文件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "这是什么文件 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "这是什么文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "这是什么文件 的出链列表"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "日拱一卒/2025-09-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Outline of 2025-09-25"
             }
           },
           {
@@ -161,7 +168,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -171,17 +178,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
-            "id": "04a82b79fe95279c",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -189,61 +186,52 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
-      "obsidian-spaced-repetition:复习卡片": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
   "active": "18809d708ae9e76e",
   "lastOpenFiles": [
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-conversations/我最近都记录了啥@20251017_084819.md",
-    "pdf/01-LangChain使用概述.pdf",
-    "pdf/03-LangChain使用之Chains.pdf",
-    "pdf/06-LangChain使用之Agents.pdf",
-    "pdf/02-LangChain使用之Model IO.pdf",
-    "欢迎.md",
-    "README.md",
-    "未命名.canvas",
-    "未命名.base",
-    "pdf/07-LangChain使用之Retrieval.pdf",
-    "pdf/05-LangChain使用之Tools.pdf",
-    "pdf/04-LangChain使用之Memory.pdf",
-    "日拱一卒/2025-09-24.md",
-    "pdf",
-    "日拱一卒/2025-10-17.md",
-    "软考/构件开发方法.md",
-    "开发日记/安装 kubeadm.md",
-    "开发日记/虚拟化操作系统.md",
-    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
-    "开发日记/MacOS 中出现.md",
     "记忆卡片/示例.md",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "Templates/复盘模板.md",
+    "技术文章/Rust 交叉编译.md",
+    "assets/Pasted image 20250913145425.png",
+    "assets/Pasted image 20250907102833.png",
+    "软考/构件开发方法.md",
+    "软考/系统分析-结构化分析.md",
+    "软考/系统分析-面向对象分析.md",
+    "软考/系统设计-结构化设计.md",
+    "软考/系统设计-面向对象设计.md",
+    "软考/原型开发方法.md",
+    "pdf/07-LangChain使用之Retrieval.pdf",
+    "pdf/06-LangChain使用之Agents.pdf",
+    "pdf/04-LangChain使用之Memory.pdf",
+    "pdf/03-LangChain使用之Chains.pdf",
+    "pdf/02-LangChain使用之Model IO.pdf",
+    "pdf/01-LangChain使用概述.pdf",
+    "日拱一卒/2025-09-24.md",
+    "日拱一卒/2025-09-25.md",
+    "日拱一卒/2025-10-02.md",
+    "日拱一卒/2025-10-13.md",
+    "软考/系统设计-概述.md",
+    "软考/软件开发模型.md",
+    "软考/assets/Pasted image 20250921101914.png",
+    "pdf/05-LangChain使用之Tools.pdf",
+    "pdf",
+    "软考/问题.md",
+    "日拱一卒",
+    "软卡/Untitled",
     "软考/assets/Pasted image 20250922073800.png",
     "软考/assets/Pasted image 20250922073752.png",
     "软考/assets/Pasted image 20250922073628.png",
@@ -251,8 +239,17 @@
     "软考/assets/Pasted image 20250922073445.png",
     "软考/assets/Pasted image 20250922073432.png",
     "软考/assets/Pasted image 20250922073340.png",
-    "软考/assets/Pasted image 20250922073328.png",
-    "软考/assets/Pasted image 20250922073303.png",
-    "软考/assets/Pasted image 20250922073158.png"
+    "开发日记/android/WebView 套壳应用.md",
+    "开发日记/MacOS 中出现.md",
+    "开发日记/android/Android 是怎么运行起来的.md",
+    "开发日记/android/关键字.md",
+    "开发日记/🚢 Docker Swarm.md",
+    "开发日记/安装 kubeadm.md",
+    "开发日记/虚拟化操作系统.md",
+    "开发日记/docker 本质是进程.md",
+    "开发日记/Docker 容器资源限制.md",
+    "开发日记/Rust 交叉编译.md",
+    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
+    "未命名.canvas"
   ]
 }
