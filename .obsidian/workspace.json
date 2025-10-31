@@ -11,10 +11,14 @@
             "id": "73753083d66c37e9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "软件工程/论文背景.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "论文背景"
             }
           }
         ]
@@ -185,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -206,8 +210,31 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "18809d708ae9e76e",
+  "active": "c0feef85a89b4856",
   "lastOpenFiles": [
+    "软考/软件开发模型.md",
+    "软考/系统设计-面向对象设计.md",
+    "软考/系统设计-结构化设计.md",
+    "软考/系统设计-概述.md",
+    "软考/系统分析-面向对象分析.md",
+    "软考/系统分析-结构化分析.md",
+    "软考/构件开发方法.md",
+    "软考/原型开发方法.md",
+    "软考/assets/Pasted image 20250922073800.png",
+    "软考/assets/Pasted image 20250922073752.png",
+    "软考/assets/Pasted image 20250922073628.png",
+    "软考/assets/Pasted image 20250922073614.png",
+    "软考/assets/Pasted image 20250922073445.png",
+    "软考/assets/Pasted image 20250922073432.png",
+    "软考/assets/Pasted image 20250922073340.png",
+    "软考/assets/Pasted image 20250922073328.png",
+    "软考/assets/Pasted image 20250922073303.png",
+    "软考/assets/Pasted image 20250922073158.png",
+    "软考/assets",
+    "软考",
+    "开发日记/🚢 Docker Swarm.md",
+    "软件工程/论文背景.md",
+    "软件工程",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Simplify.md",
@@ -230,29 +257,6 @@
     "未命名.base",
     "pdf/07-LangChain使用之Retrieval.pdf",
     "pdf/05-LangChain使用之Tools.pdf",
-    "pdf/04-LangChain使用之Memory.pdf",
-    "日拱一卒/2025-09-24.md",
-    "pdf",
-    "日拱一卒/2025-10-17.md",
-    "软考/构件开发方法.md",
-    "开发日记/安装 kubeadm.md",
-    "开发日记/虚拟化操作系统.md",
-    "开发日记/Mac M 系列下 Rust + Docker 构建与容器环境故障全记录.md",
-    "开发日记/MacOS 中出现.md",
-    "记忆卡片/示例.md",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "Templates/复盘模板.md",
-    "软考/assets/Pasted image 20250922073800.png",
-    "软考/assets/Pasted image 20250922073752.png",
-    "软考/assets/Pasted image 20250922073628.png",
-    "软考/assets/Pasted image 20250922073614.png",
-    "软考/assets/Pasted image 20250922073445.png",
-    "软考/assets/Pasted image 20250922073432.png",
-    "软考/assets/Pasted image 20250922073340.png",
-    "软考/assets/Pasted image 20250922073328.png",
-    "软考/assets/Pasted image 20250922073303.png",
-    "软考/assets/Pasted image 20250922073158.png"
+    "日拱一卒/2025-09-24.md"
   ]
 }
