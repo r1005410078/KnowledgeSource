@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e054dd5a066c6ff9",
+        "id": "1602310929cd488f",
         "type": "tabs",
         "children": [
           {
@@ -14,6 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "软件工程/论文背景.md",
+                "mode": "source",
+                "source": false
+              },
+              "type": "markdown",
+              "state": {
+                "file": "论文/论云原生技术应用.md",
                 "mode": "source",
                 "source": false
               },
@@ -212,6 +218,9 @@
   },
   "active": "c0feef85a89b4856",
   "lastOpenFiles": [
+    "论文/论云原生技术应用.md",
+    "论文",
+    "日拱一卒/2025-10-02.md",
     "软考/软件开发模型.md",
     "软考/系统设计-面向对象设计.md",
     "软考/系统设计-结构化设计.md",
@@ -255,8 +264,6 @@
     "README.md",
     "未命名.canvas",
     "未命名.base",
-    "pdf/07-LangChain使用之Retrieval.pdf",
-    "pdf/05-LangChain使用之Tools.pdf",
-    "日拱一卒/2025-09-24.md"
+    "pdf/07-LangChain使用之Retrieval.pdf"
   ]
 }
