@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1602310929cd488f",
+        "id": "e054dd5a066c6ff9",
         "type": "tabs",
         "children": [
           {
@@ -13,18 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程/论文背景.md",
-                "mode": "source",
-                "source": false
-              },
-              "type": "markdown",
-              "state": {
-                "file": "论文/论云原生技术应用.md",
+                "file": "软件工程/论云原生技术应用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "论文背景"
+              "title": "论云原生技术应用"
             }
           }
         ]
@@ -195,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -216,8 +210,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c0feef85a89b4856",
+  "active": "18809d708ae9e76e",
   "lastOpenFiles": [
+    "软件工程/论文背景.md",
+    "软件工程/论云原生技术应用.md",
     "论文/论云原生技术应用.md",
     "论文",
     "日拱一卒/2025-10-02.md",
@@ -242,7 +238,6 @@
     "软考/assets",
     "软考",
     "开发日记/🚢 Docker Swarm.md",
-    "软件工程/论文背景.md",
     "软件工程",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Summarize.md",
@@ -261,7 +256,6 @@
     "pdf/06-LangChain使用之Agents.pdf",
     "pdf/02-LangChain使用之Model IO.pdf",
     "欢迎.md",
-    "README.md",
     "未命名.canvas",
     "未命名.base",
     "pdf/07-LangChain使用之Retrieval.pdf"
