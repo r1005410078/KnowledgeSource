@@ -213,7 +213,9 @@
   "active": "18809d708ae9e76e",
   "lastOpenFiles": [
     "软件工程/论文背景.md",
+    "软件工程/论软件维护及其应用.md",
     "软件工程/论云原生技术应用.md",
+    "软件工程/练习册.md",
     "论文/论云原生技术应用.md",
     "论文",
     "日拱一卒/2025-10-02.md",
@@ -250,12 +252,10 @@
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-conversations/我最近都记录了啥@20251017_084819.md",
     "pdf/01-LangChain使用概述.pdf",
     "pdf/03-LangChain使用之Chains.pdf",
     "pdf/06-LangChain使用之Agents.pdf",
     "pdf/02-LangChain使用之Model IO.pdf",
-    "欢迎.md",
     "未命名.canvas",
     "未命名.base",
     "pdf/07-LangChain使用之Retrieval.pdf"
