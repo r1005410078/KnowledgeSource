@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程/论云原生技术应用.md",
+                "file": "日拱一卒/2025-11-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "论云原生技术应用"
+              "title": "2025-11-14"
             }
           }
         ]
@@ -140,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "日拱一卒/2025-11-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-11-14 的大纲"
             }
           },
           {
@@ -210,11 +211,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "73753083d66c37e9",
+  "active": "18809d708ae9e76e",
   "lastOpenFiles": [
+    "日拱一卒/2025-11-13.md",
+    "日拱一卒/2025-11-14.md",
+    "日拱一卒/2025-11-10.md",
+    "日拱一卒/2025-10-13.md",
+    "日拱一卒/2025-09-25.md",
+    "软件工程/论云原生技术应用.md",
     "软件工程/论文背景.md",
     "软件工程/论软件维护及其应用.md",
-    "软件工程/论云原生技术应用.md",
     "软件工程/练习册.md",
     "论文/论云原生技术应用.md",
     "论文",
@@ -247,11 +253,6 @@
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
     "pdf/01-LangChain使用概述.pdf",
     "pdf/03-LangChain使用之Chains.pdf",
     "pdf/06-LangChain使用之Agents.pdf",
