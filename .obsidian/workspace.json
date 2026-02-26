@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51c59f917555d082",
+        "id": "57efc74f3576daad",
         "type": "tabs",
         "children": [
           {
-            "id": "17606240c0bd4ca8",
+            "id": "08063375f668ddda",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "pdf/02-LangChain使用之Model IO.pdf"
+                "file": "新概念英语一册/Lessons/L03/02-教练对话（问答）.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "02-LangChain使用之Model IO"
+              "icon": "lucide-file",
+              "title": "02-教练对话（问答）"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 452.5
   },
   "right": {
     "id": "743d3099b50f0e40",
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pdf/02-LangChain使用之Model IO.pdf",
+                "file": "工程化/交叉编译c++.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02-LangChain使用之Model IO 的反向链接列表"
+              "title": "交叉编译c++ 的反向链接列表"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pdf/02-LangChain使用之Model IO.pdf",
+                "file": "工程化/交叉编译c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "02-LangChain使用之Model IO 的出链列表"
+              "title": "交叉编译c++ 的出链列表"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pdf/02-LangChain使用之Model IO.pdf",
+                "file": "工程化/交叉编译c++.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02-LangChain使用之Model IO 的大纲"
+              "title": "交叉编译c++ 的大纲"
             }
           },
           {
@@ -180,11 +182,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,57 +199,56 @@
       "command-palette:打开命令面板": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "18809d708ae9e76e",
+  "active": "08063375f668ddda",
   "lastOpenFiles": [
-    "pdf/01-LangChain使用概述.pdf",
+    "新概念英语一册/Lessons/L03/assets/Lesson03_practice.mp3",
+    "新概念英语一册/Lessons/L03/01-练习（填写版）.md",
+    "新概念英语一册/Lessons/L03/assets/Lesson03_practice.wav",
+    "新概念英语一册/Lessons/L03/02-教练对话（问答）.md",
+    "新概念英语一册/Resources/Audio/lesson03_listen_practice.txt",
+    "新概念英语一册/生词表.md",
+    "新概念英语一册/错题本.md",
+    "新概念英语一册/Lessons/L02/00-说明.md",
+    "新概念英语一册/Resources/PDF/新概念英语第一册.pdf",
+    "新概念英语一册/Lessons/L03/03-知识点整理.md",
+    "新概念英语一册/新概念英语第一册.md",
+    "新概念英语一册/2026-02-26.md",
+    "新概念英语一册/2026-02-27.md",
+    "新概念英语一册/Lessons/L03/assets",
+    "新概念英语一册/Lessons/L03",
+    "codex-skills/obsidian-study-loop/references/course-layout.md",
+    "codex-skills/obsidian-study-loop/references/commands.md",
+    "codex-skills/obsidian-study-loop/agents/openai.yaml",
+    "codex-skills/obsidian-study-loop/scripts/study_course.py",
+    "codex-skills/obsidian-study-loop/agents",
+    "codex-skills/obsidian-study-loop/references",
+    "codex-skills/obsidian-study-loop/SKILL.md",
+    "新概念英语一册/每日学习记录模板.md",
+    "新概念英语一册/Lessons/L02/01-练习（填写版）.md",
+    "新概念英语一册/Lessons/L02/02-听力练习（语音）.md",
+    "新概念英语一册/Lesson 02/01-练习（填写版）.md",
+    "新概念英语一册/Lessons/L02/assets/10.png",
+    "新概念英语一册/Lessons/L02/assets/09.png",
+    "新概念英语一册/Lessons/L02/assets/08.png",
+    "新概念英语一册/Lessons/L02/assets/07.png",
+    "新概念英语一册/Lessons/L02/assets/06.png",
+    "新概念英语一册/Lessons/L02/assets/05.png",
+    "新概念英语一册/Lessons/L02/assets/04.png",
+    "新概念英语一册/Lessons/L02/assets/03.png",
+    "新概念英语一册/Lessons/L02/assets/02.png",
+    "新概念英语一册/Lessons/L02/assets/01.png",
+    "新概念英语一册/Lesson 02/02-听力练习（语音）.md",
+    "新概念英语一册/Lesson 02/00-说明.md",
+    "新概念英语一册/新概念英语第一册-结构化笔记.md",
     "工程化/交叉编译c++.md",
+    "记忆卡片/示例.md",
+    "欢迎.md",
+    "README.md",
+    "未命名.canvas",
     "工程化/在ubuntu中编译c和c++.md",
-    "工程化/cross 交叉编译.md",
-    "工程化/pkg-config.md",
-    "技术文章/Rust 交叉编译.md",
-    "未命名 1.base",
-    "未命名.base",
-    "软件工程/练习册.md",
-    "软件工程/论软件维护及其应用.md",
-    "日拱一卒/11月/2025-11-28.md",
-    "日拱一卒/11月/2025-11-26.md",
-    "日拱一卒/11月/2025-11-25.md",
-    "日拱一卒/11月/2025-11-19.md",
-    "日拱一卒/11月/2025-11-14.md",
-    "日拱一卒/11月/2025-11-10.md",
-    "日拱一卒/11月/2025-11-13.md",
-    "日拱一卒/11月/2025-11-24.md",
-    "日拱一卒/9月/2025-09-24.md",
-    "日拱一卒/9月/2025-09-25.md",
-    "日拱一卒/11月",
-    "日拱一卒/10月",
-    "日拱一卒/9月",
-    "日拱一卒/10月/2025-10-13.md",
-    "软件工程/论云原生技术应用.md",
-    "软件工程/论文背景.md",
-    "论文/论云原生技术应用.md",
-    "论文",
-    "日拱一卒/10月/2025-10-02.md",
-    "软考/软件开发模型.md",
-    "软考/系统设计-面向对象设计.md",
-    "软考/系统设计-结构化设计.md",
-    "软考/assets/Pasted image 20250922073800.png",
-    "软考/assets/Pasted image 20250922073752.png",
-    "软考/assets/Pasted image 20250922073628.png",
-    "软考/assets/Pasted image 20250922073614.png",
-    "软考/assets/Pasted image 20250922073445.png",
-    "软考/assets/Pasted image 20250922073432.png",
-    "软考/assets/Pasted image 20250922073340.png",
-    "软考/assets/Pasted image 20250922073328.png",
-    "软考/assets/Pasted image 20250922073303.png",
-    "软考/assets/Pasted image 20250922073158.png",
-    "软考/assets",
-    "软考",
-    "软件工程",
-    "未命名.canvas"
+    "工程化/cross 交叉编译.md"
   ]
 }

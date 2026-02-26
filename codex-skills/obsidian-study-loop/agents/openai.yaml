@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Study Loop"
+  short_description: "Obsidian course plan/practice/grading"
+  default_prompt: "Manage an Obsidian course-study workflow: read progress, generate today's plan, create exercises, grade answers, and summarize lesson knowledge points."
